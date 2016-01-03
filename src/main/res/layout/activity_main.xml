@@ -14,8 +14,8 @@
     android:layout_height="wrap_content"
     android:text="文字带阴影的按钮"
     android:textSize="12pt"
-    android:shadowColor="#aa5"
-    android:shadowRadius="2"
+    android:shadowColor="#f00"
+    android:shadowRadius="10"
     android:shadowDx="5"
     android:shadowDy="5"/>
     <Button
@@ -23,12 +23,16 @@
         android:layout_height="wrap_content"
         android:background="@drawable/red"
         android:text="普通按钮"
-        android:textSize="10pt"/>
+        android:textSize="10pt"
+        android:shadowColor="#f00"
+        android:shadowRadius="10"
+        android:shadowDx="5"
+        android:shadowDy="5"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button_selector"
-        android:textSize="11pt"
+        android:textSize="10pt"
         android:text="带文字的图片按钮"/>
 
 </LinearLayout>
